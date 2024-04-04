@@ -23,7 +23,6 @@
 .wrapperImage {
   height: 759.3px;
   width: 602.8px;
-  z-index: 1;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -32,6 +31,7 @@
 .title,
 .wrapperImage {
   position: relative;
+  z-index: 1;
 }
 .title {
   margin: 0;
@@ -65,6 +65,7 @@
   flex-shrink: 0;
   mix-blend-mode: normal;
   min-height: 60px;
+  z-index: 1;
   object-fit: contain;
   position: absolute;
   left: 0;
@@ -87,6 +88,7 @@
   align-self: stretch;
   mix-blend-mode: normal;
   min-height: 60px;
+  z-index: 1;
 }
 .appStoreDownloadButton {
   width: 100%;
@@ -135,20 +137,20 @@
   flex-direction: column;
   padding: var(--padding-37xl-3) 0 0;
   max-width: calc(100% - 746px);
-  z-index: 1;
 }
 .appDownload {
   width: 100%;
   height: 589px;
   margin: 0 !important;
   position: absolute;
-  right: -3px;
-  bottom: 3302px;
+  top: 4935px;
+  left: -1px;
   background: linear-gradient(261.24deg, #ffae00, #ff8a00);
   overflow: hidden;
   flex-direction: row;
   padding: var(--padding-42xl-7) var(--padding-329xl-9) var(--padding-189xl);
   gap: var(--gap-124xl-3);
+  z-index: 1;
   text-align: left;
   font-size: var(--headline-2-bold-size);
   color: var(--color-gray-100);

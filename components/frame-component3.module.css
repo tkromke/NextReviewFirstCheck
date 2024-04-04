@@ -92,16 +92,14 @@
   display: flex;
   flex-direction: row;
   align-items: flex-start;
+  justify-content: flex-start;
 }
 .icons {
   flex: 1;
-  justify-content: space-between;
-  padding: 0 var(--padding-12xs) 0 var(--padding-22xl);
-  gap: var(--gap-xl);
+  gap: var(--gap-22xl);
 }
 .iconsWrapper {
   align-self: stretch;
-  justify-content: flex-start;
   padding: 0 var(--padding-50xl) 0 var(--padding-50xl-5);
 }
 .body,

@@ -15,7 +15,7 @@
 }
 .text {
   margin: 0;
-  width: 748px;
+  width: 728px;
   position: relative;
   font-size: inherit;
   line-height: 97.5%;
@@ -23,8 +23,6 @@
   font-family: inherit;
   display: inline-block;
   max-width: 100%;
-  box-sizing: border-box;
-  padding-left: var(--padding-xl);
   z-index: 1;
 }
 .icon,
@@ -49,14 +47,18 @@
   min-width: 10px;
   white-space: nowrap;
 }
-.button,
 .iconWrapper {
   width: 10px;
-  display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
   padding: var(--padding-12xs) 0 0;
+}
+.button,
+.buttonWrapper,
+.cta,
+.iconWrapper {
+  display: flex;
   box-sizing: border-box;
 }
 .button {
@@ -69,31 +71,31 @@
   background: linear-gradient(93.41deg, #f17228, #f15e28);
   box-shadow: var(--button-shadow);
   flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
   gap: var(--gap-3xs);
+  z-index: 1;
 }
 .buttonWrapper,
 .cta {
-  display: flex;
   max-width: 100%;
 }
 .buttonWrapper {
-  width: 725px;
+  width: 728px;
   flex-direction: row;
   align-items: flex-start;
   justify-content: center;
-  padding: 0 var(--padding-xl);
-  box-sizing: border-box;
-  z-index: 1;
+  padding: 0 0 0 var(--padding-10xs);
 }
 .cta {
   align-self: stretch;
   overflow: hidden;
   flex-direction: column;
-  align-items: flex-end;
+  align-items: center;
   justify-content: flex-start;
+  padding: var(--padding-72xl) var(--padding-xl) var(--padding-56xl);
   position: relative;
   gap: var(--gap-43xl);
-  min-height: 400px;
   text-align: center;
   font-size: var(--font-size-38xl);
   color: var(--theme-white);
@@ -115,5 +117,8 @@
   }
   .cta {
     gap: 15px 62px;
+    padding-top: var(--padding-40xl);
+    padding-bottom: var(--padding-30xl);
+    box-sizing: border-box;
   }
 }

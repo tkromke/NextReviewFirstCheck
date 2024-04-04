@@ -6,7 +6,7 @@ const AppDownload: NextPage = () => {
     <section className={styles.appDownload}>
       <div className={styles.background} />
       <div className={styles.wrapperImage}>
-        <img className={styles.imageIcon} alt="" />
+        <img className={styles.imageIcon} alt="" src="/image-13@2x.png" />
       </div>
       <div className={styles.appDownloadInner}>
         <div className={styles.frameParent}>
@@ -23,6 +23,7 @@ const AppDownload: NextPage = () => {
                 className={styles.googlePlayDownload}
                 loading="lazy"
                 alt=""
+                src="/google-play-download@2x.png"
               />
             </div>
             <div className={styles.wrapperAppStoreDownloadBut}>
@@ -30,6 +31,7 @@ const AppDownload: NextPage = () => {
                 className={styles.appStoreDownloadButton}
                 loading="lazy"
                 alt=""
+                src="/app-store-download-button.svg"
               />
             </div>
           </div>

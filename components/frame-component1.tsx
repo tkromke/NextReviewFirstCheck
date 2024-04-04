@@ -11,17 +11,17 @@ const FrameComponent1: NextPage = () => {
         </div>
         <div className={styles.parent}>
           <Component
-            image="357x301x823386991"
+            image="/image-5@2x.png"
             text="20% off"
-            restaruantLogo="64x64x-269416297"
+            restaruantLogo="/restaruant-logo@2x.png"
             name1="Foodworld"
             text1="46"
             text2="Opens tomorrow"
           />
           <Component
-            image="357x301x-1442619439"
+            image="/image-6@2x.png"
             text="15% off"
-            restaruantLogo="64x64x-1140926594"
+            restaruantLogo="/restaruant-logo-1@2x.png"
             name1="Pizzahub"
             text1="40"
             text2="Opens tomorrow"
@@ -37,9 +37,9 @@ const FrameComponent1: NextPage = () => {
             propMinWidth1="unset"
           />
           <Component
-            image="357x301x-1368775997"
+            image="/image-7@2x.png"
             text="10% off"
-            restaruantLogo="64x64x-2130922618"
+            restaruantLogo="/restaruant-logo-2@2x.png"
             name1="Donuts hut"
             text1="20"
             text2="Open Now"
@@ -55,9 +55,9 @@ const FrameComponent1: NextPage = () => {
             propMinWidth1="100px"
           />
           <Component
-            image="357x301x-194350006"
+            image="/image-8@2x.png"
             text="15% off"
-            restaruantLogo="64x64x-125388555"
+            restaruantLogo="/restaruant-logo-3@2x.png"
             name1="Donuts hut"
             text1="50"
             text2="Open Now"
@@ -73,9 +73,9 @@ const FrameComponent1: NextPage = () => {
             propMinWidth1="100px"
           />
           <Component
-            image="357x301x436989559"
+            image="/image-9@2x.png"
             text="10% off"
-            restaruantLogo="64x64x518297150"
+            restaruantLogo="/restaruant-logo-4@2x.png"
             name1="Ruby Tuesday"
             text1="26"
             text2="Open Now"
@@ -91,9 +91,9 @@ const FrameComponent1: NextPage = () => {
             propMinWidth1="100px"
           />
           <Component
-            image="357x301x341166334"
+            image="/image-10@2x.png"
             text="25% off"
-            restaruantLogo="64x64x2005345196"
+            restaruantLogo="/restaruant-logo-5@2x.png"
             name1="Kuakata Fried Chicken"
             text1="53"
             text2="Open Now"
@@ -109,9 +109,9 @@ const FrameComponent1: NextPage = () => {
             propMinWidth1="100px"
           />
           <Component
-            image="357x301x1740202167"
+            image="/image-11@2x.png"
             text="10% off"
-            restaruantLogo="64x64x-297427749"
+            restaruantLogo="/restaruant-logo-6@2x.png"
             name1="Red Square"
             text1="45"
             text2="Open Now"
@@ -127,9 +127,9 @@ const FrameComponent1: NextPage = () => {
             propMinWidth1="100px"
           />
           <Component
-            image="357x301x1514859018"
+            image="/image-12@2x.png"
             text="10% off"
-            restaruantLogo="64x64x-466504696"
+            restaruantLogo="/restaruant-logo-7@2x.png"
             name1="Taco Bell"
             text1="35"
             text2="Open Now"
