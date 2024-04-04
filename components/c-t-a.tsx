@@ -4,7 +4,7 @@ import styles from "./c-t-a.module.css";
 const CTA: NextPage = () => {
   return (
     <section className={styles.cta}>
-      <img className={styles.imageIcon} alt="" />
+      <img className={styles.imageIcon} alt="" src="/image-14@2x.png" />
       <h1 className={styles.text}>
         Are you ready to order with the best deals?
       </h1>

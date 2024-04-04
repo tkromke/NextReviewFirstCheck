@@ -28,10 +28,15 @@ const FrameComponent: NextPage = () => {
               <div className={styles.chevronRight}>CHEVRON-RIGHT</div>
             </button>
           </div>
-          <img className={styles.rightIcon} loading="lazy" alt="" />
+          <img
+            className={styles.rightIcon}
+            loading="lazy"
+            alt=""
+            src="/right@2x.png"
+          />
         </div>
         <div className={styles.detailsCard1}>
-          <img className={styles.rightIcon1} alt="" />
+          <img className={styles.rightIcon1} alt="" src="/right-1@2x.png" />
           <div className={styles.left1}>
             <div className={styles.text1}>
               <h1 className={styles.title1}>
@@ -81,7 +86,7 @@ const FrameComponent: NextPage = () => {
               <div className={styles.chevronRight1}>CHEVRON-RIGHT</div>
             </button>
           </div>
-          <img className={styles.rightIcon2} alt="" />
+          <img className={styles.rightIcon2} alt="" src="/right-2@2x.png" />
         </div>
       </div>
     </section>

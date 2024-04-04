@@ -45,7 +45,7 @@ const Footer: NextPage = () => {
         </div>
       </div>
       <div className={styles.menuSubscriptionRights}>
-        <img className={styles.hrIcon} alt="" />
+        <img className={styles.hrIcon} alt="" src="/hr-3.svg" />
         <div className={styles.menuSubscription}>
           <div className={styles.menu}>
             <div className={styles.footerMenuItems}>
@@ -102,7 +102,7 @@ const Footer: NextPage = () => {
           </div>
         </div>
         <div className={styles.hrRights}>
-          <img className={styles.hrIcon1} alt="" />
+          <img className={styles.hrIcon1} alt="" src="/hr-3.svg" />
           <div className={styles.rights}>
             <div className={styles.rights1}>
               <div className={styles.copyright}>

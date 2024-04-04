@@ -22,7 +22,11 @@ const CITestFood: NextPage = () => {
           <div className={styles.topNavHeaderItem} />
           <div className={styles.rectangleParent}>
             <div className={styles.frameChild} />
-            <img className={styles.frameItem} alt="" />
+            <img
+              className={styles.frameItem}
+              alt=""
+              src="/rectangle-20@2x.png"
+            />
           </div>
           <Header buttonDisabled />
           <div className={styles.background} />

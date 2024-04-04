@@ -36,29 +36,27 @@
   font-size: var(--headline-6-bold-size);
   min-width: 28px;
 }
-.percentageSymbol {
-  flex-direction: column;
-}
-.discount,
-.foodPhoto,
 .percentageSymbol,
 .percentageSymbolWrapper {
   display: flex;
+  flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
 }
 .percentageSymbolWrapper {
-  flex-direction: column;
   padding: var(--padding-11xs) 0 0;
   font-size: var(--headline-5-bold-size);
 }
 .discount,
 .foodPhoto {
+  display: flex;
   flex-direction: row;
+  justify-content: flex-start;
 }
 .discount {
   border-radius: 0 var(--br-13xl) 0 0;
   background-color: var(--theme-primary);
+  align-items: flex-start;
   padding: var(--padding-3xs) var(--padding-lg) var(--padding-2xs);
   z-index: 1;
 }
@@ -68,6 +66,7 @@
   border-radius: var(--br-base);
   background-color: var(--theme-white);
   overflow: hidden;
+  align-items: flex-end;
   position: relative;
 }
 .daysRemaining,

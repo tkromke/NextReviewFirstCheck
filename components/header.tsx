@@ -1,5 +1,4 @@
 import type { NextPage } from "next";
-import { useCallback } from "react";
 import styles from "./header.module.css";
 
 export type HeaderType = {
@@ -7,15 +6,16 @@ export type HeaderType = {
 };
 
 const Header: NextPage<HeaderType> = ({ buttonDisabled = true }) => {
-  const onButtonClick = useCallback(() => {
-    window.open("https://www.google.com");
-  }, []);
-
   return (
     <div className={styles.header}>
       <div className={styles.group11Parent}>
-        <img className={styles.group11} alt="" />
-        <img className={styles.imageIcon} loading="lazy" alt="" />
+        <img className={styles.group11} alt="" src="/group-1-1@2x.png" />
+        <img
+          className={styles.imageIcon}
+          loading="lazy"
+          alt=""
+          src="/image@2x.png"
+        />
       </div>
       <div className={styles.titleOrderCard}>
         <div className={styles.title}>
@@ -35,23 +35,13 @@ const Header: NextPage<HeaderType> = ({ buttonDisabled = true }) => {
               <b className={styles.text}>Pickup</b>
             </div>
           </div>
-          <img className={styles.hrIcon} alt="" />
+          <img className={styles.hrIcon} alt="" src="/hr.svg" />
           <div className={styles.bottom}>
             <div className={styles.textFieldButton}>
               <div className={styles.wrapperTextField}>
-                <input
-                  className={styles.textField}
-                  name="SearchInput"
-                  value="Find your favourite Food"
-                  placeholder="Order your food"
-                  type="text"
-                />
+                <input className={styles.textField} type="text" />
               </div>
-              <button
-                className={styles.button}
-                onClick={onButtonClick}
-                disabled={buttonDisabled}
-              >
+              <button className={styles.button} disabled={buttonDisabled}>
                 <div className={styles.icon2}>SEARCH</div>
                 <b className={styles.text1}>Find Food</b>
               </button>

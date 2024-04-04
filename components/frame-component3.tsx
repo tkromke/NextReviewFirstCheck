@@ -15,13 +15,17 @@ const FrameComponent3: NextPage = () => {
                 <div className={styles.menu}>
                   <div className={styles.menu2}>
                     <div className={styles.menu2Child} />
-                    <img className={styles.groupIcon} alt="" />
+                    <img className={styles.groupIcon} alt="" src="/group.svg" />
                   </div>
                 </div>
                 <div className={styles.wrapperMapMarker}>
-                  <img className={styles.mapMarkerIcon} alt="" />
+                  <img
+                    className={styles.mapMarkerIcon}
+                    alt=""
+                    src="/map-marker.svg"
+                  />
                 </div>
-                <img className={styles.invoiceIcon} alt="" />
+                <img className={styles.invoiceIcon} alt="" src="/invoice.svg" />
                 <img className={styles.donutIcon} alt="" />
               </div>
             </div>
@@ -38,11 +42,19 @@ const FrameComponent3: NextPage = () => {
                 <div className={styles.menu1}>
                   <div className={styles.menu21}>
                     <div className={styles.menu2Item} />
-                    <img className={styles.groupIcon1} alt="" />
+                    <img
+                      className={styles.groupIcon1}
+                      alt=""
+                      src="/group.svg"
+                    />
                   </div>
                 </div>
                 <img className={styles.mapMarkerIcon1} alt="" />
-                <img className={styles.invoiceIcon1} alt="" />
+                <img
+                  className={styles.invoiceIcon1}
+                  alt=""
+                  src="/invoice.svg"
+                />
                 <img className={styles.donutIcon1} alt="" />
               </div>
             </div>
@@ -59,12 +71,20 @@ const FrameComponent3: NextPage = () => {
                 <div className={styles.menu3}>
                   <div className={styles.menu22}>
                     <div className={styles.menu2Inner} />
-                    <img className={styles.groupIcon2} alt="" />
+                    <img
+                      className={styles.groupIcon2}
+                      alt=""
+                      src="/group.svg"
+                    />
                   </div>
                 </div>
                 <img className={styles.mapMarkerIcon2} alt="" />
                 <div className={styles.wrapperInvoice}>
-                  <img className={styles.invoiceIcon2} alt="" />
+                  <img
+                    className={styles.invoiceIcon2}
+                    alt=""
+                    src="/invoice.svg"
+                  />
                 </div>
                 <img className={styles.donutIcon2} alt="" />
               </div>
@@ -82,13 +102,25 @@ const FrameComponent3: NextPage = () => {
                 <div className={styles.menu4}>
                   <div className={styles.menu23}>
                     <div className={styles.rectangleDiv} />
-                    <img className={styles.groupIcon3} alt="" />
+                    <img
+                      className={styles.groupIcon3}
+                      alt=""
+                      src="/group.svg"
+                    />
                   </div>
                 </div>
                 <img className={styles.mapMarkerIcon3} alt="" />
-                <img className={styles.invoiceIcon3} alt="" />
+                <img
+                  className={styles.invoiceIcon3}
+                  alt=""
+                  src="/invoice.svg"
+                />
                 <div className={styles.wrapperDonut}>
-                  <img className={styles.donutIcon3} alt="" />
+                  <img
+                    className={styles.donutIcon3}
+                    alt=""
+                    src="/donut-1.svg"
+                  />
                 </div>
               </div>
             </div>

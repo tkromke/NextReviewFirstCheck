@@ -10,13 +10,13 @@ const FrameComponent2: NextPage = () => {
           <h1 className={styles.title}>Popular items</h1>
           <div className={styles.cards}>
             <Component1
-              frame40="283.4x283x-1966739548"
+              frame40="/frame-40@2x.png"
               name1="Cheese Burger"
               text="Burger Arena"
               prop="$3.88"
             />
             <Component1
-              frame40="283.4x283x30467285"
+              frame40="/frame-40-1@2x.png"
               name1="Toffe’s Cake"
               text="Top Sticks"
               prop="$4.00"
@@ -24,7 +24,7 @@ const FrameComponent2: NextPage = () => {
               propMinWidth1="94px"
             />
             <Component1
-              frame40="283.4x283x1163081304"
+              frame40="/frame-40-2@2x.png"
               name1="Dancake"
               text="Cake World"
               prop="$1.99"
@@ -32,7 +32,7 @@ const FrameComponent2: NextPage = () => {
               propMinWidth1="105px"
             />
             <Component1
-              frame40="283.4x283x-865602191"
+              frame40="/frame-40-3@2x.png"
               name1="Crispy Sandwitch"
               text="Fastfood Dine"
               prop="$3.00"
@@ -40,7 +40,7 @@ const FrameComponent2: NextPage = () => {
               propMinWidth1="126px"
             />
             <Component1
-              frame40="283.4x283x1357362715"
+              frame40="/frame-40-4@2x.png"
               name1="Thai  Soup"
               text="Foody man"
               prop="$2.79"
@@ -52,10 +52,10 @@ const FrameComponent2: NextPage = () => {
       </div>
       <div className={styles.sliderButton}>
         <button className={styles.arrowLeft}>
-          <div className={styles.icon}>chevron-left</div>
+          <h2 className={styles.icon}>chevron-left</h2>
         </button>
         <button className={styles.arrowRight}>
-          <div className={styles.icon1}>chevron-right</div>
+          <h2 className={styles.icon1}>chevron-right</h2>
         </button>
       </div>
     </div>

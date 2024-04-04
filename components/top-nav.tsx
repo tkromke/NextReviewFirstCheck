@@ -5,7 +5,7 @@ const TopNav: NextPage = () => {
   return (
     <header className={styles.topNav}>
       <div className={styles.logo}>
-        <img className={styles.maskGroupIcon} alt="" />
+        <img className={styles.maskGroupIcon} alt="" src="/mask-group@2x.png" />
         <div className={styles.foodParent}>
           <b className={styles.food}>food</b>
           <div className={styles.wagon}>

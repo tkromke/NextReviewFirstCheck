@@ -43,11 +43,13 @@
   max-width: 100%;
 }
 .icon {
+  margin: 0;
   height: 56px;
   width: 56px;
   position: relative;
   font-size: var(--font-size-14xl);
   line-height: 120%;
+  font-weight: 400;
   font-family: var(--font-font-awesome-5-free);
   color: var(--theme-white);
   text-align: center;
@@ -77,11 +79,13 @@
   box-sizing: border-box;
 }
 .icon1 {
+  margin: 0;
   height: 56px;
   width: 56px;
   position: relative;
   font-size: var(--font-size-14xl);
   line-height: 120%;
+  font-weight: 400;
   font-family: var(--font-font-awesome-5-free);
   color: var(--theme-white);
   text-align: center;
